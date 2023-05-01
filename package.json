@@ -1,0 +1,39 @@
+{
+  "name": "my-gatsby-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "my-gatsby-site",
+  "author": "amit kumar",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.7.13",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@fullpage/react-fullpage": "^0.1.38",
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.0",
+    "gatsby": "^5.9.0",
+    "gatsby-plugin-google-fonts": "^1.0.1",
+    "gatsby-source-wordpress": "^7.9.0",
+    "jquery": "^3.6.1",
+    "react": "^18.1.0",
+    "react-alice-carousel": "^2.6.4",
+    "react-bootstrap": "^2.7.4",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-modal": "^3.16.1",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1"
+  }
+}

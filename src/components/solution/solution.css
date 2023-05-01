@@ -1,0 +1,154 @@
+
+  
+  img{
+      width: 100%;
+  }
+  
+  /*style  css  in inner  pages  */
+  /*solution  Design */
+  .solution_secanm .kng_hbx h2 {
+      font-family: 'Roboto Condensed';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 55px;
+      line-height: 64px;
+      text-align: left;
+      text-transform: uppercase;
+      color: #00D4FF;
+  }
+  .solution_secanm .kng_hbx p {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 23px;
+      color: #FFFFFF;
+  }
+  
+  .solution_secanm .kng_hbx ul {
+      padding-left: 20px;
+  }
+  
+  .solution_secanm .kng_hbx ul li {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 23px;
+      color: #FFFFFF;
+      list-style: disc;
+      margin-bottom: 15px;
+  }
+  
+  .solution_secanm .image_rowund_sebx {
+      position: absolute;
+      z-index: 9999;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+  }
+  
+  .solution_secanm .image_sidebx {
+      position: relative;
+  }
+  
+  .solution_secanm .image_innerbx {
+      padding: 20px;
+      text-align: center;
+      margin: auto;
+  }
+  .solution_secanm .image_rowund_sebx {
+      position: absolute;
+      -webkit-animation: spin 10s linear infinite;
+      animation: spin 10s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+      0% { -webkit-transform: rotate(0deg); }
+      100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+  }
+  
+  
+  .solution_secanm .ghbdbx {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+  }
+  
+  .solution_secanm .ghbdbx img {
+      width: auto;
+  }
+  
+  .solution_secanm .roghrtfbx img {
+      width: auto;
+  }
+  .solution_secanm .ghbdbx {
+    position: absolute;
+    right: 98px;
+    bottom: 0;
+    z-index: 999;
+  }
+  .solution_secanm .ghbdbx1 {
+    position: absolute;
+    right: -27px;
+    top: 50%;
+    transform: translate(-50%, 0px);
+  }
+  
+  .solution_secanm .ghbdbx2 {
+    position: absolute;
+    left: 30px;
+    top: 0;
+    transform: translate(0%, 0px);
+    z-index: 99;
+  }
+  .solution_secanm .ghbdbx3 {
+    position: absolute;
+    left: 30px;
+    bottom: -15px;
+    transform: translate(0%, 0px);
+    z-index: 99;
+  }
+  .solution_secanm .ghbdbx3 {
+  position: absolute;
+  left: 22px;
+  bottom: 27px;
+  transform: translate(0%, 0px);
+  z-index: 99;
+  }
+  .solution_secanm .ghbdbx4 {
+    position: absolute;
+    right: 31px;
+    top: 30px;
+    transform: translate(0%, 0px);
+    z-index: 99;
+  }
+  
+  .solution_secanm{
+      position: relative;
+  }
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
