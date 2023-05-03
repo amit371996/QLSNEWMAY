@@ -1,15 +1,15 @@
 import React from "react";
 // import catering from '../../images/catering.png';
-import "../../stylee.css";
+import "../stylee.css";
 
 
-import anmimg1 from "../../image/round.svg";
-import anmimg2 from "../../image/star.svg";
-import anmimg3 from "../../image/bloone.svg";
-import anmimg4 from "../../image/eardff.svg";
-import anmimg5 from "../../image/wav.svg";
-import anmimg6 from "../../image/wav.svg";
-import Layout from "../layout/layout";
+import anmimg1 from "../image/round.svg";
+import anmimg2 from "../image/star.svg";
+import anmimg3 from "../image/bloone.svg";
+import anmimg4 from "../image/eardff.svg";
+import anmimg5 from "../image/wav.svg";
+import anmimg6 from "../image/wav.svg";
+import Layout from "../components/layout/layout";
 import { useStaticQuery, graphql, StaticQuery, Link } from "gatsby";
 
 const About = () => {
@@ -21,6 +21,7 @@ const About = () => {
             query {
                 wpPage(id: { eq: "cG9zdDoxMDM=" }) {
 					title
+					slug
 					about {
 					  advisorsheading
 					  description

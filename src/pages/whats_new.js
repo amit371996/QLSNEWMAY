@@ -1,21 +1,14 @@
 
 import React from 'react';
 import { useState } from 'react';
-import "../../stylee.css"
+import "../stylee.css"
 
-
-import frame1 from '../../image/Frame1.png';
-import frame2 from '../../image/Frame2.png';
-import frame3 from '../../image/Frame3.png';
-import frame4 from '../../image/Frame4.png';
-import frame5 from '../../image/Frame5.png';
-import footerlogo from '../../image/footerlogo.png';
-import userff from '../../image/userff.png';
-import icon from '../../image/Icon.png';
 import { Link, StaticQuery, graphql } from 'gatsby';
-import Layout from '../layout/layout';
+import Layout from '../components/layout/layout';
+// import Layout from '../components/layout/layout';
 
 export default function Whatsnew() {
+	
 	const [currentPage, setCurrentPage] = useState(1);
     const itemsPerPage = 6;
 	return (
@@ -70,6 +63,7 @@ export default function Whatsnew() {
 					return pageNumbers;
 				}
 				return (
+					<Layout>
 					<div>
 						<section class="section new00">
 							<div class="secation01 bhg secn_abouts">
@@ -99,11 +93,11 @@ export default function Whatsnew() {
 										<div class="col-md-12">
 											<div class="list_tab_wg">
 												<ul>
-													<li ><Link to='/app/event'>Events</Link></li>
-													<li class="active_cl"><Link to='/app/whatsnew'>News</Link></li>
-													<li><Link to='/app/blog'>Blogs</Link></li>
-													<li><Link to='/app/partner'>Partner News</Link></li>
-													<li><Link to='/app/videos'>Videos</Link></li>
+													<li ><Link to='/event'>Events</Link></li>
+													<li class="active_cl"><Link to='/whats_new'>News</Link></li>
+													<li><Link to='/blog'>Blogs</Link></li>
+													<li><Link to='/partner'>Partner News</Link></li>
+													<li><Link to='/videos'>Videos</Link></li>
 												</ul>
 											</div>
 										</div>
@@ -133,11 +127,11 @@ export default function Whatsnew() {
 															</div>
 															<div class="heading_nmb">
 																<h4>
-																	<Link to={news.link}>
+																	<Link to={"/news/"+news.slug}>
 																		{news.title}  </Link>
 																</h4>
 																<div class="next_page">
-																	<Link to={`/news/${news.slug}`} className="read-more"> Read more
+																	<Link to={"/news/"+news.slug} className="read-more"> Read more
 																		<span><img src="https://www.qlspace.com.au/wp-content/uploads/2023/03/arrowright.png" /></span>
 																	</Link>
 																</div>
@@ -158,6 +152,7 @@ export default function Whatsnew() {
 						</section>
 						
 					</div>
+					</Layout>
 				)
 			}
 			}

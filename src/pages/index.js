@@ -32,6 +32,7 @@ const Home = () => (
 				allWpSolution(sort: {id: ASC}) {
 					edges {
 					  node {
+						slug
 						content
 						excerpt
 						featuredImage {
@@ -305,7 +306,7 @@ const Home = () => (
 
 																		<p> The combination of data analytics, artificial intelligence… </p>
 																		<div class="our_tascrt">
-																			<Link to="/app/blog">View All Posts</Link>
+																			<Link to="/blog">View All Posts</Link>
 
 																		</div>
 																	</div>
@@ -323,7 +324,7 @@ const Home = () => (
 																				SpaceX successfully launches 1...    </a></h3>
 																		<p> The Tranche 0 satellites are part of… </p>
 																		<div class="our_tascrt">
-																			<Link to="/app/whatsnew">View All News</Link>
+																			<Link to="/whats_new">View All News</Link>
 
 																		</div>
 																	</div>
@@ -342,7 +343,7 @@ const Home = () => (
 																			Asia’s most prominent te...    </a></h3>
 																	<p> Asia's most prominent tech summit - Umagine </p>
 																	<div class="our_tascrt">
-																		<Link to="/app/event">View All Events</Link>
+																		<Link to="/event">View All Events</Link>
 
 																	</div>
 																</div>
@@ -363,7 +364,7 @@ const Home = () => (
 																<p>
 																	Today was a big day for QL…</p>
 																<div class="our_tascrt">
-																	<Link to="/app/partner">View All Partners</Link>
+																	<Link to="/partner">View All Partners</Link>
 																</div>
 															</div>
 														</div>
@@ -382,7 +383,7 @@ const Home = () => (
 																<p>
 																	QL Space is thrilled to have participated…</p>
 																<div class="our_tascrt">
-																	<Link to="/app/videos">View All Videos</Link>
+																	<Link to="/videos">View All Videos</Link>
 
 																</div>
 															</div>

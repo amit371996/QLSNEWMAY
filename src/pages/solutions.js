@@ -1,28 +1,17 @@
 import React from 'react';
 import ReactFullpage from "@fullpage/react-fullpage";
 // import catering from '../../images/catering.png';
-import "../../stylee.css"
+import "../stylee.css"
 import "./solution.css"
 import { Link, StaticQuery, graphql } from 'gatsby';
 
-import frame1 from '../../image/Frame1.png';
-import frame2 from '../../image/Frame2.png';
-import frame3 from '../../image/Frame3.png';
-import frame4 from '../../image/Frame4.png';
-import frame5 from '../../image/Frame5.png';
-import footerlogo from '../../image/footerlogo.png';
-import userff from '../../image/userff.png';
 
+import Layout from '../components/layout/layout';
 
-import icon from '../../image/Icon.png';
-import icon2 from '../../image/map.png';
-import icon3 from '../../image/map.png';
-import icon4 from '../../image/phone.png';
-import icon5 from '../../image/phone.png';
-import Layout from '../layout/layout';
-
-const Solution = () => (
-	<StaticQuery
+const Solution = () => {
+	
+	return(
+<StaticQuery
 		query={graphql`
 			query {
 				allWpSolution(sort: {id: ASC}) {
@@ -146,6 +135,8 @@ const Solution = () => (
 			/>
 		)}
 	/>
-);
+	)
+}
+	
 
 export default Solution;
